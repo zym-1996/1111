@@ -160,7 +160,7 @@ export default {
       })
 
       if (res.meta.status !== 200) {
-        return this.$message.error('获取商品分类失败！')
+        return this.$messages.error('获取商品分类失败！')
       }
 
       console.log(res.data)
